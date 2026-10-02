@@ -76,3 +76,26 @@ li {
 .description {
     margin: 10px 0;
 }
+
+/* contact list */
+ul.menu {
+    margin: 10px 0 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* contact items side by side */
+.menu li {
+    display: inline;
+    padding: 0 20px;
+}
+
+/* education list */
+#degrees {
+    margin: 5px 0 0 0;
+}
+
+/* skills list */
+#do {
+    margin: 5px 0 0 0;
+}
