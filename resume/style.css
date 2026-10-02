@@ -7,12 +7,25 @@ body {
     color: #444;
 }
 
+/* container: centers the page and limits its width */
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
 /* name at the top */
-h1 {
+#name {
     font-size: 3em;
     color: #33485e;
     text-transform: uppercase;
     text-align: center;
+    font-weight: 700;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
 /* my title under the name */
