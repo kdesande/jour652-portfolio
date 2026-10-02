@@ -72,3 +72,7 @@ strong {
 li {
     font-size: 1em;
 }
+/* job descriptions */
+.description {
+    margin: 10px 0;
+}
