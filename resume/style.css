@@ -29,10 +29,13 @@ body {
 }
 
 /* my title under the name */
-strong {
+#title {
     text-transform: uppercase;
     font-size: 1.5em;
     color: #33485e;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0 0 0;
 }
 
 /* section titles: Experience, Education, Skills */
@@ -98,4 +101,34 @@ ul.menu {
 /* skills list */
 #do {
     margin: 5px 0 0 0;
+}
+
+/* headshot photo: round with blue border */
+#headshot {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #33485e;
+}
+
+/* centers the headshot */
+#headshot-container {
+    text-align: center;
+}
+
+/* links not visited yet */
+a:link {
+    font-weight: 600;
+    color: #0bc5f4;
+}
+
+/*links already visited */
+a:visited {
+    color: #6e38c7;
+}
+
+/* links when the mouse is over them */
+a:hover {
+    color: #33485e;
 }
