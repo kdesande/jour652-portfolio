@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f7f5f0;
+    color: #2b2b2b;
+}
+
+/* 1. Masthead */
+#masthead {
+    width: 100%;
+    min-width: 900px;
+    background-color: #33485e;
+    text-align: center;
+    padding: 25px 0;
+}
+
+#masthead h2 {
+    margin: 0;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 48px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* 5. Container: one centered column */
+#container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* 2 + 4. Headline */
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 34px;
+    line-height: 1.25;
+    color: #33485e;
+    margin-bottom: 10px;
+}
+
+/* 3. Byline */
+#byline {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+/* 4. Body text */
+p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* 6. Images and captions */
+img {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+}
+
+.caption {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    color: #666666;
+    margin-top: 6px;
+    margin-bottom: 25px;
+}
+
+/* 7. Pull quote */
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 1.4;
+    color: #a84e2c;
+    border-top: 3px solid #a84e2c;
+    border-bottom: 3px solid #a84e2c;
+    padding: 20px 10px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+blockquote span {
+    display: block;
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    color: #2b2b2b;
+    margin-top: 10px;
+}
+
+/* 8. Read more */
+h3 {
+    font-family: Verdana, sans-serif;
+    color: #33485e;
+    border-top: 1px solid #cccccc;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+li {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+a {
+    color: #33485e;
+}
+
+a:hover {
+    color: #a84e2c;
+}
