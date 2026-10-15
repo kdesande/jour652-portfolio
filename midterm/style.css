@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f7f7;
+    color: #222222;
+}
+
+/* Masthead */
+#masthead {
+    width: 100%;
+    min-width: 900px;
+    background-color: #1b3a4b;
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 4px solid #3fa7a0;
+}
+
+#masthead h2 {
+    margin: 0;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 48px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#masthead h3 {
+    margin: 0;
+    color: #3fa7a0;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Main story container */
+#container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* Headline */
+h1 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    color: #1b3a4b;
+}
+
+/* Byline */
+#byline {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+/* Story text */
+p {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+/* Subheadings and Read more */
+h4 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #1b3a4b;
+}
+
+/* Photos and chart */
+img {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+}
+
+/* Photo captions and credits */
+.caption {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    color: #666666;
+    margin-top: 6px;
+    margin-bottom: 25px;
+}
+
+/* Pull quote */
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 1.4;
+    color: #3fa7a0;
+    border-top: 3px solid #3fa7a0;
+    border-bottom: 3px solid #3fa7a0;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 30px 0;
+}
+
+blockquote span {
+    display: block;
+    font-size: 13px;
+    font-style: normal;
+    color: #222222;
+    margin-top: 10px;
+}
+
+/* Related link list */
+li {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+/* Related links */
+a {
+    color: #1b3a4b;
+}
+
+a:hover {
+    color: #3fa7a0;
+}
