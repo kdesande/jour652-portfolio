@@ -1,0 +1,286 @@
+/* 1. Base */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #2b2b2b;
+    background-color: #f7f5f0;
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+}
+
+/* 2. Topper */
+#topper {
+    background-color: #33485e;
+    color: white;
+    text-align: center;
+    padding: 60px 20px 0;
+}
+
+#topper h1 {
+    margin: 0;
+    font-size: 56px;
+}
+
+.tagline {
+    margin: 8px 0 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.teaching-quote {
+    max-width: 750px;
+    margin: 0 auto 40px;
+    font-family: "Playfair Display", serif;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.headshot {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto -100px;
+    border: 6px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+}
+
+/* 3. Topper fix: photo hangs below the blue band */
+#topper {
+    display: flow-root;
+}
+
+/* 4. Main content */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin: 50px 0 20px;
+    font-size: 30px;
+    color: #33485e;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin-top: 8px;
+    background-color: #a84e2c;
+}
+
+/* 5. About */
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 110px;
+    text-align: center;
+}
+
+#about h2::after {
+    margin: 8px auto 0;
+}
+
+/* 6. Experience and Education */
+.job,
+.degree {
+    margin-bottom: 28px;
+}
+
+.job h3,
+.degree h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.job-meta, 
+.degree-meta {
+    margin: 0 0 8px;
+    font-size: 16px;
+    color: #666666;
+}
+
+/* 7. Award */
+.award-list {
+    list-style: none;
+    padding: 0;
+}
+
+.award-list li {
+    margin-bottom: 14px;
+}
+
+.award-list span {
+    display: block;
+    font-size: 16px;
+    color: #666666;
+}
+
+/* 8. Skills and Languages tags */
+.tag-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag-list li {
+    padding: 4px 14px;
+    border: 1px solid #a84e2c;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #33485e;
+}
+
+/* 9. Two columns on larger screens */
+@media (min-width: 768px) {
+    #resume-columns {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: "sidebar experience";
+        gap: 50px;
+    }
+
+    #sidebar {
+        grid-area: sidebar;
+    }
+
+    #experience {
+        grid-area: experience;
+    }
+}
+
+/* 10. Beyond the Résumé cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.card {
+    overflow: hidden;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0, 0.08);
+}
+
+.card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.card .photo-contain {
+    object-fit: contain;
+    background-color: #33485e;
+}
+
+.card h3 {
+    margin: 20px 20px 8px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #33485e;
+}
+
+.card p {
+    margin: 0 20px 24px;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .card-grid {
+        grid-template-columns:  repeat(3, 1fr);
+    }
+}
+
+/* 11. Navigation menu */
+#main-nav {
+    background-color: #f7f5f0;
+}
+
+#main-nav .navbar-brand {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: #33485e
+}
+
+#main-nav .nav-link {
+    color: #33485e;
+    font-weight: 600;
+}
+
+#main-nav .nav-link:hover {
+    color: #a84e2c;
+}
+
+/* 12. Footer */
+#contact {
+    background-color: #33485e;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 30px;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact h2::after {
+    margin: 8px auto 0;
+}
+
+.contact-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.contact-links a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid #a84e2c;
+}
+
+.contact-links a:hover {
+    color: #f7f5f0;
+    border-bottom-color: white;
+}
+
+.copyright {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #f7f5f0;
+}
+
+/* 13. Smaller text on phones */
+@media (max-width: 767px) {
+    #topper h1 {
+        font-size: 40px;
+    }
+
+    .teaching-quote {
+        font-size: 21px;
+    }
+}
