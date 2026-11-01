@@ -1,0 +1,88 @@
+/* General */
+body {
+    background-color: #f7f5f0;
+    color: #2b2b2b;
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Headline and byline */
+.headline {
+    font-family: "Playfair Display", Georgia, serif;
+    color: #33485e;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.byline {
+    color: #a84e2c;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+/* Images and captions */
+.caption {
+    color: #666666;
+    font-size: 13px;
+    margin-top: 6px;
+    margin-bottom: 25px;
+}
+
+.credit {
+    font-style: italic;
+}
+
+.inline-image {
+    margin: 35px 30px;
+}
+
+/* Blockquote */
+.pull-quote {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 24px;
+    color: #33485e;
+    border-left: 6px solid #a84e2c;
+    padding: 10px 25px;
+    margin: 35px 20ox;
+}
+
+/* More Reads */
+.more-reads {
+    background-color: #f2ede4;
+    border-top: 3px solid #33485e;
+    padding: 20px 25px;
+    margin-top: 40px;
+}
+
+.more-reads h2 {
+    font-family: "Playfair Display", Georgiam serif;
+    color: #33485e;
+    font-size: 24px;
+}
+
+.more-reads a {
+    color: #33485e;
+}
+
+.more-reads a:hover {
+    color: #a84e2c;
+}
+
+/* Footer */
+.footer {
+    background-color: #33485e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
