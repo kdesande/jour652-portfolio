@@ -1,0 +1,99 @@
+/* Headline */
+#headline {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Byline */
+#byline {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #666666;
+}
+
+/* Story text */
+p {
+    font-family: "EB Garamond", serif;
+    font-size: 1.25em;
+    line-height: 1.8;
+}
+
+/* Subheading */
+.subheading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.75em;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Image caption and credit */
+figure {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.85em;
+    margin-top: 8px;
+}
+
+.caption {
+    color: #2b2b2b;
+}
+
+.credit {
+    color: #666666;
+    font-style: italic;
+}
+
+/* Pull quote */
+.pull-quote {
+    font-family: "EB Garamond", serif;
+    font-size: 1.75em;
+    font-style: italic;
+    border-left: 5px solid #a84e2c;
+    padding-left: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.quote-source {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.5em;
+    font-style: normal;
+    color: #666666;
+    margin-top: 10px;
+}
+
+/* Three column row */
+.three-columns {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Footer */
+#footer {
+    background-color: #212529;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    color: white;
+    margin: 0;
+}
